@@ -1,0 +1,13 @@
+[project]
+name = "mujoco-humanoid"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "gymnasium>=1.2.3",
+    "mujoco>=3.6.0",
+    "stable-baselines3>=2.8.0",
+    "torch>=2.11.0",
+    "wandb>=0.25.1",
+]

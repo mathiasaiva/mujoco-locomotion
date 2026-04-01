@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# MuJoCo
+*.mjb
+*.stl
+*.msh
+
+# W&B
+wandb/
+
+# Data
+*.pkl
+*.csv
+*.hdf5
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+
+# Jupyter
+.ipynb_checkpoints/
+
+.idea/
